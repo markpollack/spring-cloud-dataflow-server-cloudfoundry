@@ -24,6 +24,11 @@
 			<artifactId>reactor-core</artifactId>
 			<version>${reactor.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>org.cloudfoundry</groupId>
+			<artifactId>cloudfoundry-client-lib</artifactId>
+			<version>${cloudfoundry-v1-java-lib.version}</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<resources>
